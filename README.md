@@ -47,7 +47,3 @@ PyDPI follows a pipeline architecture:
 2. **Decoders**: A chain of protocol-specific decoders that normalize packet data.
 3. **Flow Manager**: Groups packets into bidirectional flows (5-tuples).
 4. **Output Handler**: Formats and exports data to the console or log files.
-
-## License
-
-MIT
